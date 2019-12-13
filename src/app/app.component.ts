@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from './auth/auth.service';
+import { Store } from '@ngrx/store';
+import { AppState } from './app.reducer';
 
 @Component({
   selector: 'app-root',
